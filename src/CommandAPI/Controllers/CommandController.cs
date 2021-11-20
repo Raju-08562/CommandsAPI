@@ -5,7 +5,7 @@ namespace CommandAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class CommentController : ControllerBase
+    public class CommandController : ControllerBase
     {
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
